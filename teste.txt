@@ -1,0 +1,47 @@
+Alihar elementos
+
+    display: flef
+    justify-content: center
+    align-itens: center
+
+    display: block
+    margin-rigth: auto
+    margin-left: auto
+    margin: 0 auto
+
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+    display: grid
+    place-itens: center
+
+Background imagem - conjunto de formatações
+    background-size: cover -> cobrir container
+    background-repeat: no-repeat -> não repetir quando a imagem acabar
+    background-position: center center -> posiciona a imagem no centro 
+
+Aplicar estilo no elemento que não tiver a classe especificada
+    sintaxe:
+        .elemento:not(.classeQueNaoPodeTer){estilo}
+    ex:
+        div:not(.teste){color:white} -> aplica cor branca a toda div que não tiver a classe especificada
+    
+Video responsivo e proporcional
+    width: 100%
+    padding-bottom: 56.25%
+
+Deixar elementos na extremidade
+    width: 00%
+    justify-content: space-between
+
+Dicas Gerais
+    gap: 1rem -> espaçamento entre elementos do container
+    scroll-Behavior: smoth -> escrola suavemente
+    text-align -> é no pai
+    display-flex -> é no pai
+    justify-content -> deixa o paragrafo quadrado
+    display: block -> ocupa a lina toda
+    display: inline -> não permite largura e altura
+    overflow: hidden -> esconde o elemento se passar o tamanho do pai
