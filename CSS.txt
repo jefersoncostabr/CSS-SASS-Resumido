@@ -36,6 +36,36 @@ Deixar elementos na extremidade
     width: 00%
     justify-content: space-between
 
+Animação de crescer elemento
+    transition: transform 0.4s ease-in-out -> suavisa as transições do elemento
+    transform: scale3d (1.1, 1.1, 1) -> faz o eleento crescer 10%
+
+Variavel sem processador de css
+    :root{--nome-Variavel: #999;} -> definindo a variável
+
+    color: var(--nome-Variavel) -> usando no css
+
+Css grid -> organiza as partes do site em brades como uma tabela
+    1-Nomeie cada área
+        .elemento {grid-area: nome}
+
+            ex:
+                .header {grid-area: header;}
+                .nav {grid-area: nav;}
+                .section {grid-area: section;}
+                .aside {grid-area: aside;}
+                .footer {grid-area: footer;}
+
+    2-Coloque  grid no elemento
+        display: grid
+
+    3-Organize o grid dentro do elemento container
+        grid-template-areas:
+            'header header header'
+            'nav header aside'
+            'footer footer footer'
+
+
 Dicas Gerais
     gap: 1rem -> espaçamento entre elementos do container
     scroll-Behavior: smoth -> escrola suavemente
@@ -45,3 +75,6 @@ Dicas Gerais
     display: block -> ocupa a lina toda
     display: inline -> não permite largura e altura
     overflow: hidden -> esconde o elemento se passar o tamanho do pai
+    filter: blur (0.8px) -> desfoque
+    max-width: 100vw -> 100% da área de visualização nunca ultrapasando
+    gap: 1rem -> muda conforme tamanho da fonte padrão definida no body ou html
