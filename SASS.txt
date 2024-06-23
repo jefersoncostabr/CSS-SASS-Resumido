@@ -1,0 +1,46 @@
+Instalação 
+    npm install -g sass
+
+Como usar
+    Colocar no terminal:  sass --watch sassCaminho:cssCaminho
+    ex:
+        sass --watch src/sass:src/css
+
+    Pode ser usado com script de package.json
+        No package.json coloque:
+            "scripts": {
+            "sass": "sass --watch src/sass:src/css"}
+
+Modularização/ Partions
+    O modula a ser adicionado deve ter um nome com underlino como: 
+        _modulo.scss
+    Para lincar o módulo no arquivo principal:
+    @use './caminho/nome'
+
+Sintaxe básica
+    Não tem chaves
+    não tem ponto e vírgula
+
+Variaveis
+    definindo
+        $variavel: valor
+    usando
+        $variavel
+
+Mixin/ include
+    Definindo mixin
+        @mixin teste
+            color: white
+        padding: 10px
+    Usando o mixin
+        .elemento
+            @include teste
+
+Funções
+    Definindo função
+        @function nome-da-funcao(parametro1, parametro2){//estilização da função}
+
+    usando a função
+        @include nome-da-funcao(parametro1, parametro2)
+
+*Não pode ter extend em regra de @media

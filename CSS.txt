@@ -36,9 +36,19 @@ Deixar elementos na extremidade
     width: 00%
     justify-content: space-between
 
-Animação de crescer elemento
-    transition: transform 0.4s ease-in-out -> suavisa as transições do elemento
-    transform: scale3d (1.1, 1.1, 1) -> faz o eleento crescer 10%
+Animação de elemento
+    crescer elemento
+        transition: transform 0.4s ease-in-out -> suavisa as transições do elemento
+        transform: scale3d (1.1, 1.1, 1) -> faz o eleento crescer 10%
+
+    Esticar pra baixo
+        1- Esconder parte do elemento
+            overflow: hidden
+            heigth: 10px
+        2- Revelar elemento co hover
+            .containder:hover .elemento{ 
+                height: 200px
+                transition: 0.8s ease-in-out}
 
 Variavel sem processador de css
     :root{--nome-Variavel: #999;} -> definindo a variável
@@ -64,7 +74,6 @@ Css grid -> organiza as partes do site em brades como uma tabela
             'header header header'
             'nav header aside'
             'footer footer footer'
-
 
 Dicas Gerais
     gap: 1rem -> espaçamento entre elementos do container
