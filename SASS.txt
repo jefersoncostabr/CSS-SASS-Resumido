@@ -43,4 +43,32 @@ Funções
     usando a função
         @include nome-da-funcao(parametro1, parametro2)
 
+Importar sass
+    O arquivo por boas práticas deve ter underline ("_") ex: _estilo.sass
+    para usar é com aspas+ caminho e com @import ou @use
+        @import './_estilo.sass' 
+        @use './_estili.sass'
+
+Agrupar -> chave dentro de chave é usado "&"
+    ex:
+        .container
+            color:white
+            &:hover
+                color: blue
+
+Cálculo exemplos
+    width: calc(100% - 10px)
+    width: calc ($variavel + 20px)
+
+Degradê/Graiente
+    Imagem no fundo + degradê na frenteda imagem
+        $corUm: rgba(0,0,0, .8)
+        $corDois: rgba(0,0,0, .2)
+        $urlImg: url('caminho')
+
+        background: linear-gradient($corUm, $corDois), $urlImg
+        background-size: cover
+        background-repeat: no-repeat
+        background-position: center
+
 *Não pode ter extend em regra de @media

@@ -75,6 +75,8 @@ Css grid -> organiza as partes do site em brades como uma tabela
             'nav header aside'
             'footer footer footer'
 
+Degradê/Graiente está no arquivo SASS.txt
+
 Dicas Gerais
     gap: 1rem -> espaçamento entre elementos do container
     scroll-Behavior: smoth -> escrola suavemente
