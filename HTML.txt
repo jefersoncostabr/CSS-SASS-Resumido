@@ -1,1 +1,194 @@
+Base para iniciar site em arquivo separado
+
 autofocus dentro da tag -> o campo inicia com foco
+
+Tabela
+    <table> -> área da tabela
+    <tr> -> linha
+    <th> -> Célula de Cabeçalho/titulo
+    <td> -> Celula específica
+    <thead> -> Área do cabeçalho semântico
+    <tbody> -> Área do corpo semântico
+    <tfooter> -> Área do rodapé semântico
+    <caption> -> Legenda da tabela
+
+    Colspan -> liga duas coluynas formando uma linha unica
+        colspan="2" -> coloque dentro da tag de abertura
+    Rolspan -> liga dias linhas formando uma coluna única
+        rowspan="2" -> coloque dentro da tag de abertura
+
+    border-colapse: colapse; (CSS)
+
+Formatação
+    Itálico:<i></i>
+    Emfase: <em>italico semantico</em>
+    strong:<strong>bold semântico</strong> *dá mais relevancia
+    <b>bold</b> *é só visual
+    <i>italic</i>
+    <em>emphasized</em>
+    <sup>superscript</sup>
+    <sub>subscript</sub>
+    <u>underlined</u>
+    <code>code: for (;;) { ... }</code>
+
+Lista
+    Lista ñ ordenada:<ul></ul>
+    itens da lista:<li></li>
+    Lista ordenada:<ol></ol>
+    <ul type="circle"> -> tb pode ser: disc | square | circle
+    <ol type="1"> -> tb pode ser: 1 | A | a | I | i
+
+    list-style-position: inside; /*tira o espaçamento da esquerda da lista*/
+Link
+    Link:<a></a>
+    <a href="Coloque o link aqui" target="_blank" title="Apareçe ao passar o mouse">Texto Clicável</a>
+
+    *Fazer download é só colocar download nas propriedades.
+    ex:
+
+    <a href="./Arquivo.txt" download>Download</a>
+
+Imagem
+    <img src="..." alt="...">
+
+iframe (incorporação, video externo,google maps)
+    *coloca um site dentro do seu site em uma região
+
+    <iframe width="480" heigth="360" src="endereço" ><iframe/>
+
+    <!-- O YT recusa a conexão para colocar o vídeo deve colocar embed/ para funcionar como no exemplo: 
+        link do video normal: https://www.youtube.com/watch?v=eV4UcOAIP-4
+        com a adição de embed/: https://www.youtube.com/embed/eV4UcOAIP-4 -->
+        caso não funcione use diretamente a opção compartilhar>incorporar. Desta maneira já vel formatado peo YT
+
+3 formas de fazer citação/Quote
+
+    <blockquote cite="Fonte da citação"></blockquote><!--citação grande-->
+
+    Quais as outras?
+
+    *ex:
+
+        <blockquote>
+        <q>    "A vida é uma jornada, não uma competição."  </q>
+        <cite>Bob Marley</cite>
+        </blockquote>
+
+    ***** Permanece com a formatação feita no html inclusive tabulação espaços e quebra de linha
+
+    <pre></pre>
+
+Divisórias
+    Antigamente usava div#ids mas hj no HTML 5 usa os nomes nas tags por questões semânticas
+
+    <div id="..."> (cria blocos)
+
+        <header></header> (Cabeçalho da pág ou secção)
+        <nav></nav> (navegação principal)
+        <main></main> (conteúdo principal)
+        <aside></aside> (conteúdo a parte do tema central do site)
+        <section>
+        <article> 
+        <footer></footer> (rodapé)
+
+    </div>
+
+Formulário
+
+    <!--faz busca no google numa nova janela-->
+    <form action="http://google.com/search" method="GET" target="_blank">
+        <label for="txtbusca">Faça uma busca</label>
+        <input type="text" name="q" id="txtbusca">
+        <input type="submit" value="ok"><!--botão enviar-->
+    </form>
+
+    <fieldset><!--Cria uma caixa com os campos dentro-->
+    <Legend>Nome do bloco de formulário<Legend>
+
+    </fieldset>
+
+    imput type="text"
+    imput type="password"
+    imput type="email"
+    imput type="number" min="0" max="1000"
+    imput type="submit" value="mandar"
+    imput type="date" min="2018-01-30" max="2138-01-30" <!--Data em formato americano-->
+
+    input name <!--É usado para linkar dois inputs como o de um formulário onde se coloca o sexo-->
+
+    input type="radio" name="escolha1" value="1"<!--bolinha para clicar-->
+    *value é o que é retornado ao backend
+
+    <label>
+        <input type="radio" name="sexo" value="F">
+        Feminino
+    </label><!--fazer isso para cada opção-->
+
+    o atribulto for linka ao id ex: o for do input o liga ao id do label ou label e select
+
+    <select>
+        <option value="opção">nome da opção 1</Opção>
+        <option value="opção">nome da opção 2</Opção>
+    </select>
+
+    <fieldset>
+        <label><input type="checkbox" name="html" value="html">HTML<label>
+
+    </fieldset>
+
+    <fieldset>
+        <textarea name="msg">Descrição do que deve ser digitado</tectarea>
+
+    </fieldset>
+
+    placeholder="Dica do conteúdo" aparece dentrodo campo 
+
+
+Importar icone font (fonte redes sociais)
+
+    <!--Coloque esta linha no html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    Pesquizar o nome do icone nesta página: https://fontawesome.com/icons
+
+
+    Copiar a tag de uso e colocar no documento.
+    Será uma como esta:
+
+    <i class="fa-brands fa-facebook"></i>
+
+    *Mais usadas*
+
+    <!-- Whatsapp -->
+    <i class="fa-brands fa-whatsapp"></i>
+
+    <!-- Internet Site -->
+    <i class="fa-solid fa-computer"></i>
+
+    <!-- Facebook -->
+    <i class="fa-brands fa-facebook"></i>
+
+    <!-- Instagram -->
+    <i class="fa-brands fa-instagram"></i>
+
+
+Video
+
+    <video src="" controls></video>
+
+    Colocar video interno no site
+
+        <video width="320" height="240" controls loop poster="./imagens/imagem.jpeg">
+            <source src="./videos/video.mp4" type="video/mp4">
+        </video>
+
+        *Video da internet (YT) copia a linha de código incorporar depois de clicar em compartilhar
+
+Audio e música no site
+
+    <audio controls style="width: 100%;" autoplay>
+        <source src="./musicas/musica.mp3" type="audio/mpeg">
+    </audio>
+
+    *****Boa pratica é colocar a config abaixo em links externos
+    rel="external"

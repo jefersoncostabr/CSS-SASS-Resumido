@@ -4,4 +4,28 @@ Live Server no ceular
     Depois: http://192.168.100.5:5501
     5501 -> é a porta do localhoast os mais comuns: 5501, 5500, 8800
 
-Drive to web -> Site no google drive
+Atalhos VsCode
+
+    Comentario Ctrl + ;
+    Duplicar a linha shift + alt + ↓ (ceta p baixo)
+    Mover linha alt + ↓ (qualquer ceta)
+    Selecionar todas variaveis F2
+    Alterar todas variaveis Ctrl + d
+    Selecionar linha ctrl + L
+    Apagar linha Ctrl+Shift+K
+    Quebrade linhaAlt+Z
+    Identação Alt + shift + F
+    Busca/Substituição Ctrl + H
+    Terminal Ctrl+Shift+'
+    Reparo rápido Ctrl+.
+    Próximo erro F8
+    Sujestão Ctrl+espaço
+    Declaração da variavel F12
+    Limpar terminal Ctrl+L
+    Interrompe terminal Ctrl+C 
+
+    Navegar entre abas ctrl + numero
+
+Outras dicas    
+
+    Drive to web -> Site no google drive

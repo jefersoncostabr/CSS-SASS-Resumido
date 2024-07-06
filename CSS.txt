@@ -77,6 +77,48 @@ Css grid -> organiza as partes do site em brades como uma tabela
 
 Degradê/Graiente está no arquivo SASS.txt
 
+Regra @media
+
+    /* Telas menores ou iguais a 576 pixels */
+    @media (max-width: 576px) {
+    /* Estilos para telas pequenas aqui */
+    }
+
+    /* Telas entre 577 pixels e 768 pixels */
+    @media (min-width: 577px) and (max-width: 768px) {
+    /* Estilos para telas médias aqui */
+    }
+
+    /* Telas entre 769 pixels e 992 pixels */
+    @media (min-width: 769px) and (max-width: 992px) {
+    /* Estilos para telas grandes aqui */
+    }
+
+    /* Telas entre 993 pixels e 1200 pixels */
+    @media (min-width: 993px) and (max-width: 1200px) {
+    /* Estilos para telas extra grandes aqui */
+    }
+
+    /* Telas maiores que 1200 pixels */
+    @media (min-width: 1201px) {
+    /* Estilos para telas muito grandes aqui */
+    }
+
+Imagem
+    
+    img{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+Position
+    Relative -> relativo a posição original usa top, right, bottom, left
+    Absolute -> posiciona o elemento sem afetar os outros usando position
+    Fixed -> fixo em relação a janela
+    Z-index: 2000
+
 Dicas Gerais
     gap: 1rem -> espaçamento entre elementos do container
     scroll-Behavior: smoth -> escrola suavemente
@@ -89,3 +131,5 @@ Dicas Gerais
     filter: blur (0.8px) -> desfoque
     max-width: 100vw -> 100% da área de visualização nunca ultrapasando
     gap: 1rem -> muda conforme tamanho da fonte padrão definida no body ou html
+    border-colapse: colapse -> junta as celulas sem ficar com aparencia de quadrados separados
+    Caracter hamburger -> &#9776
