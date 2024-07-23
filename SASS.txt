@@ -71,4 +71,25 @@ Degradê/Graiente
         background-repeat: no-repeat
         background-position: center
 
-*Não pode ter extend em regra de @media
+Regra @media
+    *Não pode ter extend em regra de @media
+    *Não tem chave nem ";"
+    *Se não funcionar tire a tabulação e recoloque a tabulação na identação
+
+    exemplo:
+        @media (min-width: 1200px) and (max-width: 1496px)
+            .elemento
+                background-color: red
+
+Pseudo classe é junto do dois pontos
+	.cartao-Revela:hover
+
+Aplicar formatação apenas aos itens selecionados que estão dentro do conteiner especificado.
+    CSS:
+    .container h2, .descricaoCards h3, .descricaoCards p, .descricaoCards h4 {
+    margin: 10px; }
+
+    SASS:
+    .container
+        h2, h3, p, h4
+            margin: 10px

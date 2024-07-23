@@ -3,6 +3,7 @@ Live Server no ceular
     Antes: http://127.0.0.1:5501
     Depois: http://192.168.100.5:5501
     5501 -> é a porta do localhoast os mais comuns: 5501, 5500, 8800
+    é http e não https
 
 Atalhos VsCode
 
