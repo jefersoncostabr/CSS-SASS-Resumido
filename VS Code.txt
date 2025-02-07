@@ -30,3 +30,6 @@ Atalhos VsCode
 Outras dicas    
 
     Drive to web -> Site no google drive
+    Render
+    bitly - encurtador e link
+    netlyfi - hospedar site -com nome de domíneo
