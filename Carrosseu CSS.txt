@@ -1,0 +1,11 @@
+/* Esta é a forma de fazer carrosseu usando o minimo de Css */
+
+.container-interno{
+    display: flex;
+    /* deixa horizontal */
+    flex-direction: row;
+    /* Tamanho da img definida no projeto */
+    height: 400px;
+    /* Deixa com scroll */
+    overflow: auto;
+}

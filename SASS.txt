@@ -76,7 +76,7 @@ Regra @media
     *Não tem chave nem ";"
     *Se não funcionar tire a tabulação e recoloque a tabulação na identação
 
-    exemplo:
+    exemplo:  *****Em caso de erro tirar espaços e colocar tab Obs: fazer várias vezes até dar certo
         @media (min-width: 1200px) and (max-width: 1496px)
             .elemento
                 background-color: red
