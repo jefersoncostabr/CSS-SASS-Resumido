@@ -1,5 +1,7 @@
 O **BEM (Block, Element, Modifier)** é um padrão de nomenclatura no CSS que ajuda a organizar e estruturar os estilos de maneira clara e reutilizável. Ele facilita a manutenção do código e melhora a legibilidade, especialmente em projetos grandes.  
 
+Block__Element--Modifier
+
 ### Estrutura do BEM:  
 - **Bloco** (`Block`): Representa um componente independente.  
 - **Elemento** (`Element`): Uma parte específica do bloco.  
