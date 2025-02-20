@@ -1,0 +1,27 @@
+No CSS, `vw` é uma unidade de medida que significa "viewport width" ou largura da viewport. Ela representa 1% da largura da viewport do navegador. Em outras palavras, se você definir uma largura como `100vw`, ela ocupará 100% da largura da viewport.
+
+Aqui estão algumas das unidades de medida mais comuns no CSS:
+
+* `px`: pixels (unidade de medida fixa)
+* `%`: porcentagem (relativa ao elemento pai)
+* `em`: relativa ao tamanho da fonte do elemento (1em = tamanho da fonte)
+* `rem`: relativa ao tamanho da fonte do elemento raiz (1rem = tamanho da fonte do elemento raiz)
+* `vw`: viewport width (1vw = 1% da largura da viewport)
+* `vh`: viewport height (1vh = 1% da altura da viewport)
+* `vmin`: viewport minimum (1vmin = 1% da menor dimensão da viewport)
+* `vmax`: viewport maximum (1vmax = 1% da maior dimensão da viewport)
+
+Essas unidades de medida são úteis para criar layouts responsivos e adaptáveis a diferentes tamanhos de tela.
+
+Por exemplo, se você quiser criar um container que ocupe 80% da largura da viewport, você pode usar:
+```css
+.container {
+  width: 80vw;
+}
+```
+Já se você quiser criar um container que ocupe 50% da altura da viewport, você pode usar:
+```css
+.container {
+  height: 50vh;
+}
+```

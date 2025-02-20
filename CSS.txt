@@ -2,7 +2,7 @@ Elementos de linha não aceitam margem
 
 Alihar elementos
 
-    display: flef
+    display: flex
     justify-content: center
     align-itens: center
 
